@@ -35,8 +35,8 @@ for word in txt_list:
     result_dict.update({word: result_dict.get(word, 0) + 1})
 
 # lambda - set the column (values), which we sort by
-result_sorted = sorted(result_dict.items(), key=lambda x:x[1], reverse=False)
+result_sorted = sorted(result_dict.items(), key=lambda x: x[1], reverse=False)
 result_dict_sorted = dict(result_sorted)
 
-print(result_dict)
-print(result_dict_sorted)
+# print(result_dict)
+# print(result_dict_sorted)
