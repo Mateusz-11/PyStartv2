@@ -8,11 +8,15 @@ choice_computer = random.choice(options)
 print(f"Choice user: {choice_user}")
 print(f"Choice computer: {choice_computer}")
 
-if choice_computer == 'paper' and choice_user == 'paper' or choice_computer == 'stone' and choice_user == 'stone' or choice_computer == 'scissors' and choice_user == 'scissors':
+if choice_computer == choice_user:
     print("Draw")
-elif choice_computer == 'paper' and choice_user == 'stone' or choice_computer == 'stone' and choice_user == 'scissors' or choice_computer == 'scissors' and choice_user == 'paper':
+elif choice_computer == 'paper' and choice_user == 'stone' or \
+        choice_computer == 'stone' and choice_user == 'scissors' or \
+        choice_computer == 'scissors' and choice_user == 'paper':
     print('Computer won')
-elif choice_computer == 'paper' and choice_user == 'scissors' or choice_computer == 'stone' and choice_user == 'paper' or choice_computer == 'scissors' and choice_user == 'stone':
+elif choice_computer == 'paper' and choice_user == 'scissors' or \
+        choice_computer == 'stone' and choice_user == 'paper' or \
+        choice_computer == 'scissors' and choice_user == 'stone':
     print('User won')
 else:
     print('Wrong order!')
