@@ -47,10 +47,7 @@ dict_of_months = {
     12: "december",
 }
 
-for month in dict_of_months:
-    if answer == month:
-        print(f"{month} month it's a {dict_of_months[month]}")
-        break
-    else:
-        print("Bad value")
-
+if answer not in dict_of_months:
+    print("Bad value")
+else:
+    print(f"{answer} month it's a {dict_of_months[answer]}")
