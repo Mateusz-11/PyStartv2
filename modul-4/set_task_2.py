@@ -1,8 +1,8 @@
 
 list_of_email = []
-for _ in range(3):
+for _ in range(10):
     new_email = input("Write new email: ")
-    if "@" in new_email:
+    if "@" in new_email and new_email.endswith('.pl') or new_email.endswith('.com'):
         list_of_email.append(new_email)
 
 set_of_emails = set(list_of_email)

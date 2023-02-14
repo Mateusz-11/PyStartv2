@@ -1,6 +1,6 @@
 
 items_set = set()
-for _ in range(5):
+for _ in range(10):
     new_item = input("What you want to add? ")
     if new_item in items_set:
         print("The item is already in you set")
