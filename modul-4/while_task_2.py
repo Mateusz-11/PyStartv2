@@ -1,9 +1,14 @@
-from audioop import avg
-
 number = 0
 list_of_number = []
 while True:
-    number_user = int(input("Text a greater then previous number: "))
+    try:
+        number_user = int(input("Text a greater then previous number: "))
+    except NameError:
+        print("Wrong value")
+        continue
+    except ValueError:
+        print("Wrong value")
+        continue
     if number < number_user:
         number = number_user
         list_of_number.append(number_user)
