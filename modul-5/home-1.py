@@ -2,7 +2,7 @@ a = [2, 4, 6]
 b = [8, 6, 4]
 
 
-def sum_list(list_a, list_b):
+def sum_list(list_a: list, list_b: list) -> list:
     result = []
     for x, y in zip(list_a, list_b):
         result.append(x + y)

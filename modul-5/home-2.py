@@ -1,4 +1,4 @@
-def filter_even_numbers(numbers: list):
+def filter_even_numbers(numbers: list) -> set:
     set_numbers = set()
     for i in numbers:
         if i % 2 == 0:
