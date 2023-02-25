@@ -5,15 +5,16 @@
 #         result_list.append(i * -1)
 #
 #     return result_list
-# print(reverse_numbers([1, 2, 3, 4, 5]))
-# print(reverse_numbers([-1, -2, -3, 4, 5]))
 
 
 # V2 with MAP Function
-def reverse_numbers(i: int) -> int:
+def reverse_el(i: int) -> int:
     return i * -1
 
 
-numbers = [-1, -2, -3, 4, 5]
-result = map(reverse_numbers, numbers)
-print(list(result))
+def reverse_numbers(number_list: list) -> list:
+    return list(map(reverse_el, number_list))
+
+
+print(reverse_numbers([1, 2, 3, 4, 5]))
+print(reverse_numbers([-1, -2, -3, 4, 5]))
