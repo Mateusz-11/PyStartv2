@@ -4,14 +4,14 @@ import pytest
 def most_common_divider(x: int, y: int) -> int:
     ar1 = []
     ar2 = []
-    for i in range(1, x):
+    for i in range(1, x + 1):
         if x % i == 0:
             ar1.append(i)
-    for i in range(1, y):
+    for i in range(1, y + 1):
         if y % i == 0:
             ar2.append(i)
     ar_tmp = set(ar1) & set(ar2)
-    return max(ar_tmp)
+    return max(ar_tmp) if max(ar_tmp) > 1 else None
 
 
 @pytest.mark.parametrize("x_number,y_number,expected", [
