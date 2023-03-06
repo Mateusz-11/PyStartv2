@@ -17,6 +17,7 @@ def create_list_of_words(text: str) -> set:
     ("Ala Ma KOTA", {'Ma', 'KOTA'}),
     ("ala ma kota", {'ma', 'kota'}),
     ("Ala ma nowy dom", {'ma', 'nowy'}),
+    ("Nowy pies i kot", {'Nowy'}),
 
 ])
 def test_search_words(text, expected):
