@@ -1,12 +1,13 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 
-date_start = input('Data rozpoczecia dd.mm.rrrr: ')
-date_end = input('Data zakonczenia dd.mm.rrrr: ')
-day_salary = int(input('Pensja: '))
+date_start = datetime.strptime(input('Data rozpoczecia dd.mm.rrrr: '), '%d.%m.%Y')
+date_end = datetime.strptime(input('Data zakonczenia dd.mm.rrrr: '), '%d.%m.%Y')
+day_salary = int(input('Pensja dzienna: '))
 
-d_start = datetime.strptime(date_start, '%d.%m.%Y')
-d_end = datetime.strptime(date_end, '%d.%m.%Y')
+diff = date_end - date_start
 
-diff = d_end - d_start
+while (date_start <= date_end):
+    print(date_start)
+    date_start += timedelta(days=1)
 
 print(f'Pracownik zarobi: {day_salary * diff.days}')
