@@ -3,7 +3,7 @@ passed = []
 with open('students.txt') as file:
     for line in file:
         first_name, last_name, note = line.strip().split(';')
-        print(first_name, last_name, note)
+        # print(first_name, last_name, note)
 # if note == '2':
 #     passed.append({"first_name": first_name, "last_name": last_name, "note": note})
 
