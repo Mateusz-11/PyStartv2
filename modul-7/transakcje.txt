@@ -1,0 +1,6 @@
+2024-03-21;Przychów ze sprzedaży;500
+2024-03-22;Reklama w prasie;-300
+2024-03-23;Sprzedaż biletów na wydarzenie;200
+2024-03-24;Rachunek za prąd;-250
+2024-03-25;Wpływ gotówki;195
+2024-03-26;Wypłata wynagrodzenia;-300
