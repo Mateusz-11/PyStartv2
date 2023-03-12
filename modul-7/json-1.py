@@ -17,3 +17,10 @@ with open('book.json', 'w') as file:
         'author': new_author,
     })
     dump(books, file)
+
+[
+  {
+    "type": "Opłaty",
+    "amount": 1000
+  }
+]
