@@ -18,9 +18,3 @@ with open('book.json', 'w') as file:
     })
     dump(books, file)
 
-[
-  {
-    "type": "Opłaty",
-    "amount": 1000
-  }
-]
