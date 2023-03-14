@@ -1,5 +1,5 @@
-Jaki jÄ™zyk wybraÄ‡ na poczÄ…tek? Zdanie sÄ… podzielone...
-Java to Å›wietny jÄ™zyk.
-Java Script to jÄ™zyk do tworzenia webaplikacji, wykorzystywany zarÃ³wno na frontendzie jak i na backendzie.
-KaÅ¼dy programista webowy powinien znaÄ‡ rÃ³wnieÅ¼ przynajmniej podstawy HTML'a oraz CSSa.
-Natomiast najbardziej wszechstronnym jÄ™zykiem, ktÃ³ry posiada bardzo wiele zastosowaÅ„ jest Python!
+Jaki język wybrać na początek? Zdanie są podzielone...
+Python to Świetny język.
+Python Script to język do tworzenia webaplikacji, wykorzystywany zarówno na frontendzie jak i na backendzie.
+Każdy programista webowy powinien znać również przynajmniej podstawy HTML'a oraz CSSa.
+Natomiast najbardziej wszechstronnym językiem, który posiada bardzo wiele zastosowań jest Python!
