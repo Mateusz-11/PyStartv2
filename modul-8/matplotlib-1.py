@@ -6,5 +6,5 @@ cities = ['Gdynia', 'Gdańsk', 'Sopot']
 people = [220, 250, 300]
 
 ax.bar(cities, people)
-plt.show()
-# plt.save_fig('nazwa_pliku.png')
+# plt.show()
+plt.savefig('cites_stat.png')
